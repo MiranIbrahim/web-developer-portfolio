@@ -59,10 +59,10 @@ header {
   background-color: #fff8f3;
   margin-top: 0px;
   /* padding-left: 100px; */
-  background-image: url("../images/header_bg.png"), url("../images/developer.png");
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
   background-repeat: no-repeat;
-  background-position: bottom right,center left;
-  
+  background-position: bottom right, center left;
 }
 
 .download-icon {
@@ -85,8 +85,8 @@ header {
   background-attachment: fixed;
 }
 
-.banner-content{
-    max-width: 1000px;
+.banner-content {
+  max-width: 1000px;
 }
 
 .banner-welcome {
@@ -103,6 +103,31 @@ header {
   margin-top: 5px;
   margin-bottom: 20px;
 }
-.banner-text{
-    margin-bottom: 30px;
+.banner-text {
+  margin-bottom: 30px;
 }
+
+/* Style for About Me */
+
+.about {
+  border-radius: 10px;
+  background: #fff8f3;
+  margin: 100px 110px;
+  text-align: center;
+  padding: 130px 100px;
+  
+}
+.about-me {
+  color: #181818;
+  font-size: 35px;
+  margin-top: 0px;
+}
+.about-me-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-me-box{
+  margin: 30px 50px 0px 5px;
+}
+
