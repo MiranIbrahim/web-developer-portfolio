@@ -48,9 +48,7 @@ nav a {
 .banner {
   padding: 30px 30px 0px 230px;
   display: flex;
-  /* background-image: url("../images/header_bg.png"); */
-  /* background-repeat: no-repeat; */
-  /* background-position: bottom right; */
+
   align-items: center;
   justify-content: space-between;
 }
@@ -58,7 +56,7 @@ nav a {
 header {
   background-color: #fff8f3;
   margin-top: 0px;
-  /* padding-left: 100px; */
+  
   background-image: url("../images/header_bg.png"),
     url("../images/developer.png");
   background-repeat: no-repeat;
@@ -104,7 +102,12 @@ header {
   margin-bottom: 20px;
 }
 .banner-text {
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
+  margin: auto;
+  max-width: 800px;
+  text-align: center;
+  color: var(--dark-03, #757575);
+  font
 }
 
 /* Style for About Me */
@@ -115,19 +118,54 @@ header {
   margin: 100px 110px;
   text-align: center;
   padding: 130px 100px;
-  
 }
 .about-me {
   color: #181818;
   font-size: 35px;
   margin-top: 0px;
 }
-.about-me-container{
+.about-me-container {
   display: flex;
   justify-content: space-around;
 }
 
-.about-me-box{
+.about-me-box {
   margin: 30px 50px 0px 5px;
 }
 
+/* Style for What I Do */
+
+.what-div {
+  background: none;
+  /* max-width:200px;
+  align-items: center;
+  justify-content: center; */
+}
+.what-container{
+  /* justify-content: space-around; */
+  /* margin-left: 220px; */
+  min-width: 500px;
+  /* max-width: 700px; */
+  
+}
+.what-box {
+  width: 200px;
+  height: 377px;
+  
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  text-align: left;
+  padding: 30px;
+  /* margin: 40px; */
+  margin-top: 50px;
+
+}
+
+.box-lite-text{
+  color: var(--dark-03, #757575);
+  font-size: 16px;
+}
+.box-icon{
+  
+}
