@@ -184,6 +184,7 @@ header {
 .partition-div{
   text-align: left;
   /* margin: 230px; */
+  margin-bottom: 30px;
 }
 
 .common-div{
@@ -201,4 +202,37 @@ header {
 
 hr{
   background: #D1D1D1;
+}
+
+
+/* style for footer */
+.footer-div{
+  background: #FFF8F3;
+  display: flex;
+  margin-top: 100px;
+  
+}
+.left-foot{
+  width: 50%;
+  padding: 130px 0px 400px 230px;
+  margin-right: 20px;
+}
+
+.right-foot{
+  width: 50%;
+  padding: 130px 400px 130px 130px;
+  /* padding-right: 500px; */
+}
+
+input, textarea{
+  padding: 15px 300px 15px 30px;
+  margin-bottom: 25px;
+  width: auto;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+}
+
+.footer-icon  img{
+  margin-right: 25px;
 }
