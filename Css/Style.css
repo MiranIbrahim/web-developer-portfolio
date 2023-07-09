@@ -115,6 +115,9 @@ header {
   color: var(--dark-03, #757575);
 }
 
+.header{
+  width: 100vh;
+}
 /* Style for About Me */
 
 .about {
