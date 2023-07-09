@@ -14,7 +14,7 @@
   font-weight: 700;
   border-radius: 5px;
   border: none;
-  margin: 0px 10px;
+  margin-right: 10px;
 }
 
 /* style for navigation */
@@ -22,7 +22,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0px 200px;
+  margin: 0px 230px;
 }
 
 .nav-title {
@@ -46,11 +46,11 @@ nav a {
 
 /* style for banner */
 .banner {
-  padding: 30px 30px 0px 200px;
+  padding: 30px 30px 0px 230px;
   display: flex;
-  background-image: url("../images/header_bg.png");
-  background-repeat: no-repeat;
-  background-position: bottom right;
+  /* background-image: url("../images/header_bg.png"); */
+  /* background-repeat: no-repeat; */
+  /* background-position: bottom right; */
   align-items: center;
   justify-content: space-between;
 }
@@ -58,6 +58,11 @@ nav a {
 header {
   background-color: #fff8f3;
   margin-top: 0px;
+  /* padding-left: 100px; */
+  background-image: url("../images/header_bg.png"), url("../images/developer.png");
+  background-repeat: no-repeat;
+  background-position: bottom right,center left;
+  
 }
 
 .download-icon {
@@ -77,10 +82,11 @@ header {
   width: 650px;
   height: 730px;
   margin-right: 15px;
+  background-attachment: fixed;
 }
 
 .banner-content{
-    max-width: 500px;
+    max-width: 1000px;
 }
 
 .banner-welcome {
